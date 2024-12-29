@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>¿Está seguro de que desea borrar a {{data.superhero}}?</h2>
+<mat-dialog-content>
+  <p>Este proceso no es reversible</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <button mat-button (click)="onConfirm()" cdkFocusInitial color="warn">Ok</button>
+</mat-dialog-actions>
