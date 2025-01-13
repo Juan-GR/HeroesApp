@@ -15,6 +15,7 @@ A simple app to manage your favorite heroes.
 
 - Clone the repository
 - Run `npm install`
+- Run `ng serve -o`
 - Up `json-server data/db.json` with `npm run backend`
 - Run `ng serve`
 - Navigate to http://localhost:4200
